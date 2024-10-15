@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask a Question</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ask a Question</h1>
+        <nav>
+            <ul>
+                <li><a href="question.html">Ask a Question</a></li>
+                <li><a href="answer.html">Answer Questions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="ask-question">
+            <h2>Submit Your Question</h2>
+            <!-- On form submission, redirect to answer.html -->
+            <form action="answer.html" method="GET">
+                <label for="question">Your Question:</label>
+                <textarea id="question" name="question" rows="4" cols="50" placeholder="Type your question here..." required></textarea>
+                <button type="submit">Submit Question</button>
+            </form>
+        </section>
+    </main>
+
+    
+    <footer>
+        
+    </footer>
+</body>
+</html>
